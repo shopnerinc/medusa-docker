@@ -5,6 +5,11 @@
   "private": true,
   "scripts": {
     "docker:build": "docker build -t shopnerinc/medusa-server:latest ./",
+    "compose:up": "docker compose up --build -d",
+    "compose:ps": "docker compose ps",
+    "compose:restart": "docker compose restart",
+    "compose:down": "docker compose down",
+    "db:migrate": "medusa migrations run",
     "start": "medusa start"
   },
   "dependencies": {

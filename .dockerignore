@@ -1,5 +1,6 @@
 /**
 
+!/docker-entrypoint.sh
 !/medusa-config.js
 !/package.json
 !/pnpm-lock.yaml
