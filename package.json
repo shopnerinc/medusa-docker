@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "medusa-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docker:build": "docker build -t shopnerinc/medusa-server:latest ./",
+    "start": "medusa start"
+  },
+  "dependencies": {
+    "@medusajs/cache-redis": "~1.8.8",
+    "@medusajs/event-bus-redis": "~1.8.9",
+    "@medusajs/file-local": "~1.0.2",
+    "@medusajs/medusa": "~1.17.0",
+    "medusa-fulfillment-manual": "~1.1.38",
+    "medusa-payment-manual": "~1.0.24"
+  }
+}

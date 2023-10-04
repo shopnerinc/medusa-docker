@@ -1,0 +1,5 @@
+# Developer Guide
+
+## Dependencies
+
+- pnpm
