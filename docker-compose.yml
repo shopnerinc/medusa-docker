@@ -75,7 +75,7 @@ services:
       DATABASE_URL:
       ADMIN_CORS:
       STORE_CORS:
-      # REDIS_URL:
+      REDIS_URL:
     command: start
     ports:
       - target: 9000

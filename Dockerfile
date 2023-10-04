@@ -10,6 +10,8 @@ RUN corepack enable yarn
 
 WORKDIR /app/medusa
 
+COPY ./medusa-config.js ./medusa-config.js
+
 RUN yarn run build:server
 
 COPY ./docker-entrypoint.sh /sbin/entrypoint.sh
