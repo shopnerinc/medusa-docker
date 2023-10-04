@@ -19,5 +19,8 @@
     "@medusajs/medusa": "~1.17.0",
     "medusa-fulfillment-manual": "~1.1.38",
     "medusa-payment-manual": "~1.0.24"
+  },
+  "devDependencies": {
+    "prettier": "~2.8.8"
   }
 }
