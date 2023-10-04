@@ -9,3 +9,7 @@
 # Medusa Docker
 
 Unofficial Medusa Server Docker file.
+
+## Docs
+
+- [Developer Guide](./DEVELOPER.md)
