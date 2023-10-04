@@ -3,6 +3,8 @@
   "name": "medusa-docker",
   "private": true,
   "scripts": {
+    "lint": "trunk check",
+    "format": "trunk fmt",
     "docker:build": "docker build -t shopnerinc/medusa:latest ./",
     "compose:up": "docker compose up --build -d",
     "compose:ps": "docker compose ps",
@@ -10,6 +12,7 @@
     "compose:down": "docker compose down"
   },
   "devDependencies": {
+    "@trunkio/launcher": "~1.2.7",
     "prettier": "~2.8.8"
   }
 }
